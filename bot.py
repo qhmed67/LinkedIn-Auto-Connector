@@ -3,21 +3,6 @@ import time
 import os
 import keyboard
 
-"""
-LinkedIn Auto-Connect Bot
-------------------------
-This bot automatically finds and clicks 'Connect' buttons on LinkedIn's 'People you may know' page.
-It uses image recognition to find connect buttons, clicks them, and scrolls when needed.
-The bot is designed to be efficient while respecting LinkedIn's UI and avoiding detection.
-
-How to use:
-1. Save an image of LinkedIn's connect button as 'connect_button.png' in the same folder
-2. Navigate to LinkedIn's "People you may know" page
-3. Run this script and switch to LinkedIn window within 3 seconds
-4. Press 'L' key any time to stop the bot
-
-Author: Your GitHub Username
-"""
 
 # Configuration
 BUTTON_IMAGE = os.path.join(os.path.dirname(__file__), 'connect_button.png')
